@@ -1,0 +1,47 @@
+@media (max-width:450px){
+
+.navl,.navr{
+    display: none;
+}
+.img-cont{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.slideimg{
+    height: 84%;
+  }
+.info-cont{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.slide p,.navl,.navr,.naval,.navar{
+    display: none;
+}
+.fdivc{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: auto;
+}
+.cat{
+    margin:5vh 0.5vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.catitem{
+    width: 40%;
+    margin:2vmin 1vmin;
+}
+.footer{
+
+    height: 30vh;
+  }
+}
